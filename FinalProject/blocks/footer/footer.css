@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  margin-bottom: 40px;
+}
+.footer__link {
+  color: black;
+  font-family: 'Inknut Antiqua', serif;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
+}

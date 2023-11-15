@@ -1,0 +1,58 @@
+.tickets {
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.tickets__date {
+    font-family: 'Inknut Antiqua', serif;
+    color: white;
+    opacity: 0.8;
+
+}
+.tickets__place {
+    font-family: 'Inknut Antiqua', serif;
+    color: white;
+    opacity: 0.8;
+
+}
+.tickets__link-btn {
+    font-family: 'Inknut Antiqua', serif;
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.tickets__link-btn:hover {
+    transform: scale(1.1);
+}
+
+.tickets__wrapper {
+  padding: 0;
+  margin: 50px;
+}
+
+.tickets__line {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.tickets__title {
+    color: white;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 60px;
+    text-align: center;
+    
+    margin-bottom: 60px;
+    margin-top: 0;
+}

@@ -1,0 +1,35 @@
+.albums {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.albums__wrapper {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  max-width: 830px;
+  margin: auto;
+}
+.albums__card {
+  list-style-type: none;
+  width: 100%;
+  height: 240px;
+}
+.albums__img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+}
+.albums__date {
+    font-family: 'Inknut Antiqua', serif;
+    margin: 0;
+}
+
+.albums__title {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
