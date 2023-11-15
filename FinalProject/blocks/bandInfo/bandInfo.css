@@ -1,0 +1,16 @@
+.bandInfo {
+
+}
+.band-info__title {
+  font-family: 'Dawning of a New Day', cursive;
+  text-align: center;
+  font-size: 60px;
+
+}
+.band-info__text-container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.band-info__text {
+  font-family: 'Inknut Antiqua', serif;
+}

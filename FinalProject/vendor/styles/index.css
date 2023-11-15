@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=DM+Sans:opsz@9..40&family=Dawning+of+a+New+Day&family=Inknut+Antiqua&family=Lato&display=swap');
+
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/body/body.css);
+@import url(../../blocks/bandInfo/bandInfo.css);
+@import url(../../blocks/bandPhotoGalery/bandPhotoGalery.css);
