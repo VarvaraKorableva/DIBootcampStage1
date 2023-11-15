@@ -15,10 +15,18 @@
       <div class="header__logo"></div>
       <nav class="header__navigation-wrapper">
         <ul class="header__navigation-container">
-          <li class="header__navigation-li">TICKETS</li>
-          <li class="header__navigation-li">ALBUMS</li>
-          <li class="header__navigation-li">BAND INFO</li>
-          <li class="header__navigation-li">PHOTO GALLERY</li>
+          <li class="header__navigation-li">
+            <a href="#tikets" class="header__navigation-link">TICKETS</a>
+          </li>
+          <li class="header__navigation-li">
+            <a href="#albums" class="header__navigation-link">ALBUMS</a>
+          </li>
+          <li class="header__navigation-li">
+            <a href="#info" class="header__navigation-link">BAND INFO</a>
+          </li>
+          <li class="header__navigation-li">
+            <a href="#photos" class="header__navigation-link">PHOTO GALLERY</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -36,7 +44,7 @@
   </header>
 
   <main class="main">
-    <section class="bandInfo">
+    <section class="bandInfo" id="info">
       <h3 class="band-info__title">Band Info</h3>
       <div class="band-info__text-container">
         <p class="band-info__text">
@@ -71,7 +79,7 @@
         </p>
       </div>
     </section>
-    <section class="bandPhotoGalery">
+    <section class="bandPhotoGalery" id="photos">
       <ul class="band-photo-galery__wrapper">
         <li class="band-photo-galery__card">
           <img src="./images/vladimirpic.png" alt="solist pic" class="band-photo-galery__pic">
@@ -101,7 +109,7 @@
       </ul>  
     </section>
     
-    <section class="tickets">
+    <section class="tickets" id="tikets">
       <h3 class="tickets__title">Tickets</h3>
       <ul class="tickets__wrapper">
         <li class="tickets__line">
@@ -164,7 +172,7 @@
         </li>
       </ul>
     </section>
-    <section class="albums">
+    <section class="albums" id="albums">
       <h3 class="albums__title">Albums</h3>
       <ul class="albums__wrapper">
         <li class="albums__card">
