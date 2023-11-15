@@ -13,6 +13,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 550px) {
+  .header__container {
+    flex-direction: column;
+  }
+}
+
 .header__navigation-part {
   background-color: rgba(30, 30, 30, 0.18);
   height: 110px;
@@ -22,6 +29,20 @@
   padding-right: 50px;
   padding-left: 50px;
 }
+
+@media screen and (max-width: 780px) {
+  .header__navigation-part {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__navigation-part {
+    display: none;
+  }
+}
+
 .header__logo {
     width: 80px;
     height: 80px;
@@ -34,17 +55,31 @@
 .header__navigation-wrapper {
   width: 80%;
 }
+
+@media screen and (max-width: 680px) {
+  .header__navigation-wrapper {
+    display: none;
+  }
+}
+
 .header__navigation-container {
   padding: 0;
   display: flex;
   justify-content: space-between;
 }
+
 .header__navigation-li {
   list-style-type: none;
   margin-right: 10px;
   font-family: 'Inknut Antiqua', serif;
-  
 }
+
+@media screen and (max-width: 780px) {
+  .header__navigation-li {
+    font-size: 14px;
+  }
+}
+
 .header__title-container {
   display: flex;
   flex-direction: column;
@@ -64,6 +99,38 @@
   }
 }
 
+@media screen and (max-width: 1020px) {
+  .header__title-container {
+    margin-right: 20px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header__title-container {
+    height: 400px;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__title-container {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__title-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+  }
+}
+
+
 .header__title {
   font-family: 'Dawning of a New Day', cursive;
   font-size: 100px;
@@ -76,12 +143,25 @@
   }
 } 
 
+@media screen and (max-width: 550px) {
+  .header__title {
+    margin-top: 20px;
+  }
+} 
+
 .header__subtite {
   font-family: 'Dawning of a New Day', cursive;
   font-size: 60px;
   margin: 0;
   
 }
+
+@media screen and (max-width: 1020px) {
+  .header__subtite {
+    font-size: 40px;
+  }
+}
+
 .header__main-pic {
   width: 565px;
   height: 578px;
@@ -91,6 +171,39 @@
   .header__main-pic {
     width: 500px;
     height: 510px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .header__main-pic {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header__main-pic {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__main-pic {
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__main-pic {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__main-pic {
+    display: none;
   }
 }
 
@@ -114,6 +227,20 @@
 @media screen and (max-width: 1100px) {
   .header__band-pic{
     display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__band-pic {
+    display: flex;
+    position: relative;
+    transform: rotate(0deg);
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
   }
 }
 
