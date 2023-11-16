@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#wrap {
+    display: flex;
+    background-color: rgb(159, 159, 236);
+    padding-left: 50px;
+    padding-bottom: 70px;
+    padding-right: 50px;
+    width: 700px;
+    margin: auto;
+
+}
+
+#nav {
+    background-color: rgb(211, 229, 248);
+    width: 500px;
+    height: 410px;
+}
+
+#content {
+    background-color: rgb(81, 131, 186);
+    height: 410px;
+    
+}
+
+#content li {
+    list-style-type: none;
+}
+
+#content p {
+    text-align: center;
+}
+
+#content ul {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright {
+    background-color: rgb(159, 159, 236);
+
+}
+
