@@ -1,0 +1,30 @@
+.main__wrapper {
+    width: 800px;
+    padding-bottom: 10px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    height: 200px;
+}
+.item {
+    width: 30%;
+    background-color: rgb(226, 237, 149);
+    margin: 10px;
+}
+  
+.itemSecond {
+    width: 70%;
+    background-color: rgb(237, 149, 234);
+    margin: 10px;
+}
+
+.element {
+    
+    height: 200px;
+    background-color: rgb(230, 182, 114);
+    margin: 10px;
+}

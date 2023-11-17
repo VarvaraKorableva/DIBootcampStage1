@@ -1,0 +1,30 @@
+.main__wrapper {
+    width: 372px;
+ }
+ .element {
+     background-color: rgb(238, 206, 147);
+     border: 2px solid rgb(233, 138, 21);
+     width: 350px;
+     margin: 10px;
+     height: 80px;
+ }
+ .wrapper {
+     display: flex;
+ 
+ }
+ 
+ .item {
+     margin: 10px;
+     background-color: rgb(238, 147, 224);
+     width: 100px;
+     height: 100px;
+     border: 2px solid rgb(233, 21, 194);
+ }
+
+.item__pic {
+    border: 2px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1683009686716-ac2096a5a73b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8);
+} 

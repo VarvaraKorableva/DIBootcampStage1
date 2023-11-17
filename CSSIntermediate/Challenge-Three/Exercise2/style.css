@@ -1,0 +1,22 @@
+.main__wrapper {
+   width: 372px;
+}
+.element {
+    background-color: rgb(238, 206, 147);
+    border: 2px solid rgb(233, 138, 21);
+    width: 350px;
+    margin: 10px;
+    height: 100px;
+}
+.wrapper {
+    display: flex;
+
+}
+
+.item {
+    margin: 10px;
+    background-color: rgb(238, 147, 224);
+    width: 100px;
+    height: 300px;
+    border: 2px solid rgb(233, 21, 194);
+}
